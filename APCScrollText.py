@@ -7,7 +7,7 @@ from threading import Thread
 #           config                 #
 ####################################
 speed=.1
-text='V'
+text='WORLD DOMINATION'
 
 ####################################
 
@@ -343,7 +343,26 @@ class Letter:
 				'channel='+str(chan-4)+' note=54 velocity=127 time=0',
 				],
 			'W':	[
+				'channel='+str(chan-4)+' note=53 velocity=127 time=0',
+				'channel='+str(chan-4)+' note=54 velocity=127 time=0',
+				'channel='+str(chan-4)+' note=55 velocity=127 time=0',
+				'channel='+str(chan-4)+' note=56 velocity=127 time=0',
+				'channel='+str(chan-4)+' note=57 velocity=127 time=0',
 
+				'channel='+str(chan-2)+' note=53 velocity=127 time=0',
+				'channel='+str(chan-2)+' note=54 velocity=127 time=0',
+				'channel='+str(chan-2)+' note=55 velocity=127 time=0',
+				'channel='+str(chan-2)+' note=56 velocity=127 time=0',
+				'channel='+str(chan-2)+' note=57 velocity=127 time=0',
+
+				'channel='+str(chan)+' note=53 velocity=127 time=0',
+				'channel='+str(chan)+' note=54 velocity=127 time=0',
+				'channel='+str(chan)+' note=55 velocity=127 time=0',
+				'channel='+str(chan)+' note=56 velocity=127 time=0',
+				'channel='+str(chan)+' note=57 velocity=127 time=0',
+
+				'channel='+str(chan-1)+' note=57 velocity=127 time=0',
+				'channel='+str(chan-3)+' note=57 velocity=127 time=0',
 				],
 			'X':	[
 				'channel='+str(chan)+' note=53 velocity=127 time=0',
